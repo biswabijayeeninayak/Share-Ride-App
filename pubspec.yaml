@@ -1,0 +1,100 @@
+name: ride_sharing_user_app
+description: A ride sharing Flutter project.
+
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+  
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  intl: ^0.17.0
+  shared_preferences: ^2.0.15
+  http: ^0.13.5
+  connectivity_plus: ^3.0.2
+  firebase_core: ^2.3.0
+  firebase_messaging: ^14.1.3
+  flutter_local_notifications: ^12.0.4
+  path_provider: ^2.0.11
+  image_picker: ^0.8.6
+  dio: ^5.3.2
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  cached_network_image: 
+     git:
+      url: https://github.com/Carapacik/flutter_cached_network_image.git
+      path: cached_network_image
+  flutter_blurhash: ^0.7.0
+  country_code_picker: ^2.0.2
+  dotted_border: ^2.0.0+2
+  percent_indicator: ^4.0.1
+  url_launcher: ^6.1.3
+  flutter_html: ^3.0.0-alpha.5
+  pin_code_fields: ^7.4.0
+  flutter_svg: ^1.1.6
+  shimmer_animation: ^2.1.0+1
+  flutter_downloader: ^1.8.3
+  file_picker: ^4.6.1
+  open_file_safe: ^3.2.3
+  permission_handler: ^10.0.0
+  syncfusion_flutter_datepicker: ^20.4.43
+  google_maps_flutter: ^2.5.2 
+  geolocator: ^9.0.1
+  flutter_animarker: ^3.2.0
+  expandable_bottom_sheet: ^1.1.1+1
+  carousel_slider: ^4.1.1
+  shimmer: ^2.0.0
+  loading_overlay_pro: ^2.1.1
+  modal_bottom_sheet: ^2.1.2
+  flutter_widget_from_html_core: ^0.8.5+1
+  fwfh_text_style: ^2.22.08+2
+  lottie: ^2.7.0
+  flutter_map: ^4.0.0
+  
+
+
+
+dependency_overrides:
+  modal_bottom_sheet:
+    git:
+      url: https://github.com/danReynolds/modal_bottom_sheet.git
+      path: modal_bottom_sheet
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+    - assets/svg/
+    - assets/image/munsridename.png
+
+  fonts:
+    - family: SFProText
+      fonts:
+        - asset: assets/font/sf-pro-text-light.ttf
+          weight: 300
+        - asset: assets/font/sf-pro-text-regular.ttf
+          weight: 400
+        - asset: assets/font/sf-pro-text-medium.ttf
+          weight: 500
+        - asset: assets/font/sf-pro-text-semibold.ttf
+          weight: 600
+        - asset: assets/font/sf-pro-text-bold.ttf
+          weight: 700
+        - asset: assets/font/sf-pro-text-heavy.ttf
+          weight: 900
+
+
+ 
